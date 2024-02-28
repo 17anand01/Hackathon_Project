@@ -1,0 +1,10 @@
+15:00:21.044 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+15:01:01.546 [main] INFO  factory.BaseClass - ************TravelInsurance got clicked************
+15:01:01.782 [main] INFO  factory.BaseClass - ************TravelInsurance Page title got verified************
+15:01:05.745 [main] INFO  factory.BaseClass - ************Date got selected************
+15:01:07.732 [main] INFO  factory.BaseClass - ************Selected two travellers************
+15:01:08.265 [main] INFO  factory.BaseClass - ************Selected No for Medical history************
+15:01:10.713 [main] INFO  factory.BaseClass - ************Mobile number entered sucessfully************
+15:01:19.197 [main] INFO  factory.BaseClass - ************Students Plans got Selected************
+15:01:20.955 [main] INFO  factory.BaseClass - ************Travellers got Selected************
+15:01:57.604 [main] INFO  factory.BaseClass - ************Low to High filter got selected************

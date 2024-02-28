@@ -1,0 +1,43 @@
+17:14:04.621 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Selected No for Medical history************
+17:14:08.464 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Mobile number entered sucessfully************
+17:14:36.334 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Students Plans got Selected************
+17:14:40.489 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Travellers got Selected************
+17:15:12.990 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Low to High filter got selected************
+17:15:13.689 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for carInsurance Page got created************
+17:15:29.651 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************carlInsurance got clicked************
+17:15:30.819 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************carlInsurance Page title got verified************
+17:15:32.035 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured the error message for car************
+17:15:33.354 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Entered the car number************
+17:15:59.022 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured the error message for email************
+17:16:03.719 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for healthInsurance Page got created************
+17:16:09.956 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured all the menu items in helath insurance************
+17:16:09.957 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Sucessfuly completed all the testCases************
+17:27:45.725 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for travelInsurance Page got created************
+17:27:52.661 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************TravelInsurance got clicked************
+17:27:53.488 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************TravelInsurance Page title got verified************
+17:28:00.410 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Date got selected************
+17:28:05.459 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Selected two travellers************
+17:28:09.023 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Selected No for Medical history************
+17:28:17.004 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Mobile number entered sucessfully************
+17:28:27.952 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Students Plans got Selected************
+17:28:31.003 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Travellers got Selected************
+17:28:39.304 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Low to High filter got selected************
+17:28:39.702 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for carInsurance Page got created************
+17:28:41.836 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************carlInsurance got clicked************
+17:28:42.313 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************carlInsurance Page title got verified************
+17:28:44.958 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured the error message for car************
+17:28:46.300 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Entered the car number************
+17:28:51.100 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured the error message for email************
+17:28:54.778 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for healthInsurance Page got created************
+17:28:57.432 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Captured all the menu items in helath insurance************
+17:28:57.432 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Sucessfuly completed all the testCases************
+17:52:04.749 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Object for travelInsurance Page got created************
+17:52:44.413 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************TravelInsurance got clicked************
+17:52:44.540 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************TravelInsurance Page title got verified************
+17:52:48.400 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Date got selected************
+17:52:49.997 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Selected two travellers************
+17:52:50.811 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Selected No for Medical history************
+17:52:52.087 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Mobile number entered sucessfully************
+17:53:00.193 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Students Plans got Selected************
+17:53:01.383 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Travellers got Selected************
+17:53:44.299 [main] INFO  testCases.TC001_TRAVELINSURANCE - ************Low to High filter got selected************
