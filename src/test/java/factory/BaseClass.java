@@ -25,6 +25,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import pageObjects.carInsurance;
+import pageObjects.healthInsurance;
+import pageObjects.travelInsurance;
+
 public class BaseClass {
 	static WebDriver driver;
     static Properties p;
@@ -118,6 +122,7 @@ public class BaseClass {
 		wait.until(ExpectedConditions.visibilityOf(element));
 		
 	}
+	
 	public String captureScreen(String name) {
 		// TODO Auto-generated method stub
 		
