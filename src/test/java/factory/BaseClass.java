@@ -36,7 +36,7 @@ public class BaseClass {
     public static TakesScreenshot takesScreenshot;
     
     @BeforeTest
-    public static WebDriver initilizeBrowser() throws IOException
+    public WebDriver initilizeBrowser() throws IOException
 	{
     	if(getProperties().getProperty("execution_env").equalsIgnoreCase("remote"))
 		{

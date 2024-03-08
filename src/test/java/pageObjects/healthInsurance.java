@@ -21,7 +21,7 @@ public class healthInsurance extends BasePage{
 	@FindBy(xpath="//a[text()='Insurance Products ']")
 	WebElement insuranceProducts;
 	
-	@FindBy(xpath="//a[contains(@onclick,'Health Insurance') and @itemprop='url' and contains(@href,'health-insurance')]")
+	@FindBy(xpath="//li//div[3]/ul/li")
 	List<WebElement> healthInsuranceItems;
 	
 	public void moveToHealthInsurance() {
@@ -31,8 +31,8 @@ public class healthInsurance extends BasePage{
 		int row=4;
 		String data="";
 		
-		for(int i=1;i<14;i++) {
-			data=healthInsuranceItems.get(i).getText();
+		for(WebElement items : healthInsuranceItems) {
+			data=items.getText();
 			System.out.println(data);
 			
 			try {

@@ -112,7 +112,6 @@ public class travelInsurance extends BasePage{
 	    String str = formatter.format(date);
 	    String strPattern = "^0+(?!$)";
 	    str = str.replaceAll(strPattern, "");
-	    System.out.print(str);
 	    try {
 	    fromDate.click();
 		for(WebElement date1 : dates) {

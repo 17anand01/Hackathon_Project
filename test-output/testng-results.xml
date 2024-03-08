@@ -2,7 +2,7 @@
 <testng-results ignored="4" total="19" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-04T09:44:52 IST" name="Suite" finished-at="2024-03-04T09:46:22 IST" duration-ms="89337">
+  <suite started-at="2024-03-08T10:51:14 IST" name="Suite" finished-at="2024-03-08T10:55:04 IST" duration-ms="230254">
     <groups>
       <group name="regression">
         <method signature="TC001_TRAVELINSURANCE.travelInsuranceDateTest()[pri:1, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" name="travelInsuranceDateTest" class="testCases.TC001_TRAVELINSURANCE"/>
@@ -36,81 +36,81 @@
         <method signature="TC001_TRAVELINSURANCE.travelInsuranceselectStudentTest()[pri:5, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" name="travelInsuranceselectStudentTest" class="testCases.TC001_TRAVELINSURANCE"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-03-04T09:44:52 IST" name="ChromeTest" finished-at="2024-03-04T09:46:22 IST" duration-ms="89337">
+    <test started-at="2024-03-08T10:51:14 IST" name="ChromeTest" finished-at="2024-03-08T10:55:04 IST" duration-ms="230254">
       <class name="testCases.TC001_TRAVELINSURANCE">
-        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:44:53 IST" name="initilizeBrowser" finished-at="2024-03-04T09:45:06 IST" duration-ms="13216" status="PASS">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:51:15 IST" name="initilizeBrowser" finished-at="2024-03-08T10:51:29 IST" duration-ms="14079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizeBrowser -->
-        <test-method signature="travelInsuranceClickTest()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:07 IST" name="travelInsuranceClickTest" finished-at="2024-03-04T09:45:17 IST" duration-ms="10557" status="PASS">
+        <test-method signature="travelInsuranceClickTest()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:51:29 IST" name="travelInsuranceClickTest" finished-at="2024-03-08T10:52:16 IST" duration-ms="46490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceClickTest -->
-        <test-method signature="travelInsuranceDateTest()[pri:1, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:18 IST" name="travelInsuranceDateTest" finished-at="2024-03-04T09:45:22 IST" depends-on-methods="testCases.TC001_TRAVELINSURANCE.travelInsuranceClickTest" duration-ms="3928" status="PASS">
+        <test-method signature="travelInsuranceDateTest()[pri:1, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:16 IST" name="travelInsuranceDateTest" finished-at="2024-03-08T10:52:21 IST" depends-on-methods="testCases.TC001_TRAVELINSURANCE.travelInsuranceClickTest" duration-ms="4485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceDateTest -->
-        <test-method signature="travelInsuranceSelectTwoTest()[pri:2, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:22 IST" name="travelInsuranceSelectTwoTest" finished-at="2024-03-04T09:45:25 IST" duration-ms="2891" status="PASS">
+        <test-method signature="travelInsuranceSelectTwoTest()[pri:2, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:21 IST" name="travelInsuranceSelectTwoTest" finished-at="2024-03-08T10:52:23 IST" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceSelectTwoTest -->
-        <test-method signature="travelInsuranceSelectNoTest()[pri:3, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:25 IST" name="travelInsuranceSelectNoTest" finished-at="2024-03-04T09:45:26 IST" duration-ms="715" status="PASS">
+        <test-method signature="travelInsuranceSelectNoTest()[pri:3, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:24 IST" name="travelInsuranceSelectNoTest" finished-at="2024-03-08T10:52:25 IST" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceSelectNoTest -->
-        <test-method signature="travelInsuranceMobileNumTest()[pri:4, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:27 IST" name="travelInsuranceMobileNumTest" finished-at="2024-03-04T09:45:33 IST" duration-ms="6614" status="PASS">
+        <test-method signature="travelInsuranceMobileNumTest()[pri:4, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:26 IST" name="travelInsuranceMobileNumTest" finished-at="2024-03-08T10:52:27 IST" duration-ms="1897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceMobileNumTest -->
-        <test-method signature="travelInsuranceselectStudentTest()[pri:5, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:33 IST" name="travelInsuranceselectStudentTest" finished-at="2024-03-04T09:45:41 IST" duration-ms="7538" status="PASS">
+        <test-method signature="travelInsuranceselectStudentTest()[pri:5, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:28 IST" name="travelInsuranceselectStudentTest" finished-at="2024-03-08T10:52:35 IST" duration-ms="7351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceselectStudentTest -->
-        <test-method signature="travelInsuranceSelectTravellerTest()[pri:6, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:42 IST" name="travelInsuranceSelectTravellerTest" finished-at="2024-03-04T09:45:43 IST" duration-ms="1073" status="PASS">
+        <test-method signature="travelInsuranceSelectTravellerTest()[pri:6, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:36 IST" name="travelInsuranceSelectTravellerTest" finished-at="2024-03-08T10:52:38 IST" duration-ms="1750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceSelectTravellerTest -->
-        <test-method signature="travelInsuranceLowToHighTest()[pri:7, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:45:44 IST" name="travelInsuranceLowToHighTest" finished-at="2024-03-04T09:45:50 IST" duration-ms="5958" status="PASS">
+        <test-method signature="travelInsuranceLowToHighTest()[pri:7, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:52:38 IST" name="travelInsuranceLowToHighTest" finished-at="2024-03-08T10:53:16 IST" duration-ms="37709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsuranceLowToHighTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-04T09:46:20 IST" name="tearDown" finished-at="2024-03-04T09:46:22 IST" duration-ms="1418" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_TRAVELINSURANCE@942a29c]" started-at="2024-03-08T10:55:02 IST" name="tearDown" finished-at="2024-03-08T10:55:04 IST" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_TRAVELINSURANCE -->
-      <class name="testCases.TC002_CARINSURANCE">
-        <test-method signature="carInsuranceClickTest()[pri:0, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-04T09:45:50 IST" name="carInsuranceClickTest" finished-at="2024-03-04T09:45:53 IST" duration-ms="3374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carInsuranceClickTest -->
-        <test-method signature="carInsuranceCarNumTest()[pri:1, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-04T09:45:54 IST" name="carInsuranceCarNumTest" finished-at="2024-03-04T09:45:54 IST" depends-on-methods="testCases.TC002_CARINSURANCE.carInsuranceClickTest" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carInsuranceCarNumTest -->
-        <test-method signature="carInsuranceCarNumValueTest()[pri:2, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-04T09:45:55 IST" name="carInsuranceCarNumValueTest" finished-at="2024-03-04T09:45:55 IST" duration-ms="664" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carInsuranceCarNumValueTest -->
-        <test-method signature="carInsuranceformFillTest()[pri:3, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-04T09:45:57 IST" name="carInsuranceformFillTest" finished-at="2024-03-04T09:45:59 IST" duration-ms="2017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carInsuranceformFillTest -->
-        <test-method signature="clickPolicybazaar()[pri:4, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-04T09:46:00 IST" name="clickPolicybazaar" finished-at="2024-03-04T09:46:17 IST" duration-ms="17641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickPolicybazaar -->
-      </class> <!-- testCases.TC002_CARINSURANCE -->
       <class name="testCases.TC003_HEALTHINSURANCE">
-        <test-method signature="moveTohealthInsurance()[pri:0, instance:testCases.TC003_HEALTHINSURANCE@5d534f5d]" started-at="2024-03-04T09:46:18 IST" name="moveTohealthInsurance" finished-at="2024-03-04T09:46:18 IST" duration-ms="277" status="PASS">
+        <test-method signature="moveTohealthInsurance()[pri:0, instance:testCases.TC003_HEALTHINSURANCE@5d534f5d]" started-at="2024-03-08T10:54:57 IST" name="moveTohealthInsurance" finished-at="2024-03-08T10:54:57 IST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveTohealthInsurance -->
-        <test-method signature="healthInsuranceTest()[pri:1, instance:testCases.TC003_HEALTHINSURANCE@5d534f5d]" started-at="2024-03-04T09:46:18 IST" name="healthInsuranceTest" finished-at="2024-03-04T09:46:20 IST" duration-ms="1683" status="PASS">
+        <test-method signature="healthInsuranceTest()[pri:1, instance:testCases.TC003_HEALTHINSURANCE@5d534f5d]" started-at="2024-03-08T10:54:58 IST" name="healthInsuranceTest" finished-at="2024-03-08T10:55:02 IST" duration-ms="4026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthInsuranceTest -->
       </class> <!-- testCases.TC003_HEALTHINSURANCE -->
+      <class name="testCases.TC002_CARINSURANCE">
+        <test-method signature="carInsuranceClickTest()[pri:0, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-08T10:53:16 IST" name="carInsuranceClickTest" finished-at="2024-03-08T10:53:23 IST" duration-ms="6753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInsuranceClickTest -->
+        <test-method signature="carInsuranceCarNumTest()[pri:1, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-08T10:53:24 IST" name="carInsuranceCarNumTest" finished-at="2024-03-08T10:53:45 IST" depends-on-methods="testCases.TC002_CARINSURANCE.carInsuranceClickTest" duration-ms="21053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInsuranceCarNumTest -->
+        <test-method signature="carInsuranceCarNumValueTest()[pri:2, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-08T10:53:45 IST" name="carInsuranceCarNumValueTest" finished-at="2024-03-08T10:54:06 IST" duration-ms="21110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInsuranceCarNumValueTest -->
+        <test-method signature="carInsuranceformFillTest()[pri:3, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-08T10:54:09 IST" name="carInsuranceformFillTest" finished-at="2024-03-08T10:54:32 IST" duration-ms="22536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInsuranceformFillTest -->
+        <test-method signature="clickPolicybazaar()[pri:4, instance:testCases.TC002_CARINSURANCE@576d5deb]" started-at="2024-03-08T10:54:32 IST" name="clickPolicybazaar" finished-at="2024-03-08T10:54:56 IST" duration-ms="24055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPolicybazaar -->
+      </class> <!-- testCases.TC002_CARINSURANCE -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

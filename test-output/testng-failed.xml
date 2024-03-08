@@ -5,41 +5,21 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="sanity"/>
-      </run>
-    </groups>
     <classes>
       <class name="testCases.TC002_CARINSURANCE">
         <methods>
-          <include name="clickPolicybazaar"/>
-          <include name="carInsuranceClickTest"/>
-          <include name="carInsuranceCarNumTest"/>
-          <include name="carInsuranceCarNumValueTest"/>
+          <include name="initilizeBrowser"/>
           <include name="carInsuranceformFillTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.TC002_CARINSURANCE -->
       <class name="testCases.TC003_HEALTHINSURANCE">
         <methods>
-          <include name="moveTohealthInsurance"/>
+          <include name="initilizeBrowser"/>
           <include name="healthInsuranceTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.TC003_HEALTHINSURANCE -->
-      <class name="testCases.TC001_TRAVELINSURANCE">
-        <methods>
-          <include name="travelInsuranceSelectTravellerTest"/>
-          <include name="travelInsuranceSelectNoTest"/>
-          <include name="travelInsuranceSelectTwoTest"/>
-          <include name="travelInsuranceClickTest"/>
-          <include name="travelInsuranceMobileNumTest"/>
-          <include name="travelInsuranceDateTest"/>
-          <include name="travelInsuranceselectStudentTest"/>
-          <include name="travelInsuranceLowToHighTest"/>
-        </methods>
-      </class> <!-- testCases.TC001_TRAVELINSURANCE -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

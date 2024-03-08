@@ -14,7 +14,7 @@ import io.cucumber.java.Scenario;
  
 public class Hooks {
  
-	 WebDriver driver;
+	 public static WebDriver driver;
 	 Properties p;
 	 public static TakesScreenshot ts;
 
@@ -22,7 +22,8 @@ public class Hooks {
     public void setup() throws IOException
 
     {
-    	driver=BaseClass.initilizeBrowser();
+		BaseClass bp=new BaseClass();
+    	driver=bp.initilizeBrowser();
     	p=BaseClass.getProperties();
     	driver.get(p.getProperty("appURL"));
     	driver.manage().window().maximize();
