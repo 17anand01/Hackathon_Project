@@ -25,43 +25,46 @@ public class travelInsurance extends BasePage{
 	Select s;
 	
 	
-	@FindBy(xpath="//p[text()='Travel']")
+	@FindBy(xpath="//a[text()='Travel Insurance']")
 	WebElement travelInsurance;
 	
-	@FindBy(xpath="//p[text()='Germany']")
+	@FindBy(xpath="//span[text()='Germany']")
 	WebElement germany;
 	
-	@FindBy(xpath="//button[text()='Next']")
+	@FindBy(xpath="(//button[text()='Continue'])[2]")
 	WebElement nextButton;
 	
-	@FindBy(xpath="//div[starts-with(@class,'MuiPickersDateRangeDay-rangeIntervalPreview')]")
+	@FindBy(xpath="//div[starts-with(@class,'lightpick__day is-')]")
 	List<WebElement> dates;
 	
-	@FindBy(xpath="(//input[@placeholder='dd mmmm, yyyy'])[1]")
+	@FindBy(xpath="//input[@id='startdate']")
 	WebElement fromDate;
 	
-	@FindBy(id="traveller_2")
+	@FindBy(id="enddate")
+	WebElement toDate;
+	
+	@FindBy(xpath="//button[@class='lightpick__next-action']")
+	WebElement nextArrowButton;
+	
+	@FindBy(xpath="(//button[text()='Continue'])[1]")
+	WebElement nextButton1;
+	
+	@FindBy(id="tcl-item-2")
 	WebElement twoTraveller;
 	
-	@FindBy(id="0")
+	@FindBy(id="travellerAge1")
 	WebElement traveller1;
 	
-	@FindBy(xpath="//label[text()='22 years']")
-	WebElement age1;
-	
-	@FindBy(id="1")
+	@FindBy(id="travellerAge2")
 	WebElement traveller2;
-
-	@FindBy(xpath="//label[text()='21 years']")
-	WebElement age2;
 	
-	@FindBy(xpath="//label[@for='ped_no']")
+	@FindBy(xpath="(//label[@class='radioButton'])[2]")
 	WebElement selectNo;
 	
-	@FindBy(id="mobileNumber")
+	@FindBy(id="travelmobile")
 	WebElement mobileNum;
 	
-	@FindBy(xpath="//button[text()='View plans']")
+	@FindBy(xpath="(//button[text()='View plans'])[1]")
 	WebElement viewPlansButton;
 	
 	@FindBy(xpath="//span[@class='exitIntentPopup__box__closePop']")
@@ -100,6 +103,7 @@ public class travelInsurance extends BasePage{
 	String[] data=excelUtils.read();
 	
 	public void clickTravelInsurance() {
+		js.executeScript("arguments[0].scrollIntoView();", travelInsurance);
 		js.executeScript("arguments[0].click();", travelInsurance);
 		js.executeScript("arguments[0].click();", germany);
 		js.executeScript("arguments[0].click();", nextButton);
@@ -112,32 +116,43 @@ public class travelInsurance extends BasePage{
 	    String str = formatter.format(date);
 	    String strPattern = "^0+(?!$)";
 	    str = str.replaceAll(strPattern, "");
+	    BaseClass.explicitWait(driver, Duration.ofSeconds(20), fromDate);
 	    try {
-	    fromDate.click();
+	    	fromDate.click();
+	    	js.executeScript("arguments[0].click();", fromDate);
 		for(WebElement date1 : dates) {
 			if(date1.getText().equals(str)) {
 				date1.click();
+				break;
+			}
+		}
+		nextArrowButton.click();
+		for(WebElement date1 : dates) {
+			if(date1.getText().equals(str)) {
+				date1.click();
+				break;
 			}
 		}
 	    }catch(Exception e) {
 	    	
 	    }
-	    js.executeScript("arguments[0].click();", nextButton);
+	    js.executeScript("arguments[0].click();", nextButton1);
 		
 	}	
 	
 	public void selectTwo(){
 		js.executeScript("arguments[0].click();", twoTraveller);
 		traveller1.click();
-		age1.click();
-		traveller2.click();
-		age2.click();
-		nextButton.click();
+		s=new Select(traveller1);
+		s.selectByValue("21");
+		s=new Select(traveller2);
+		s.selectByValue("22");
+		js.executeScript("arguments[0].click();", nextButton1);
 	}
 	
 	public void selectNo() {
 		selectNo.click();
-		js.executeScript("arguments[0].click();", nextButton);
+
 	}
 	
 	public void mobileNum(){

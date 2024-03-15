@@ -42,8 +42,7 @@ public class excelUtils {
 	public static String[] read(){
 		String[] str=new String[4];
 		try {
-		String f=System.getProperty("user.dir")+"\\testdata\\read.xlsx";
-		FileInputStream file=new FileInputStream(f);
+		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\testdata\\read.xlsx");
 		XSSFWorkbook wb=new XSSFWorkbook(file);
 		XSSFSheet sheet=wb.getSheetAt(0);
 		XSSFRow row=sheet.getRow(0);

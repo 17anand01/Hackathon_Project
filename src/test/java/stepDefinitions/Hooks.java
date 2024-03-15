@@ -24,9 +24,7 @@ public class Hooks {
     {
 		BaseClass bp=new BaseClass();
     	driver=bp.initilizeBrowser();
-    	p=BaseClass.getProperties();
-    	driver.get(p.getProperty("appURL"));
-    	driver.manage().window().maximize();
+
 	}
 
 

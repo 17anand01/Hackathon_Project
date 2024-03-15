@@ -1,0 +1,49 @@
+10:45:59.642 [main] INFO  factory.BaseClass - ************Mobile number entered sucessfully************
+10:46:10.061 [main] INFO  factory.BaseClass - ************Students Plans got Selected************
+10:46:11.516 [main] INFO  factory.BaseClass - ************Travellers got Selected************
+10:46:19.494 [main] INFO  factory.BaseClass - ************Low to High filter got selected************
+10:46:20.705 [main] INFO  factory.BaseClass - ************Object for carInsurance Page got created************
+10:55:21.449 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+10:55:26.792 [main] INFO  factory.BaseClass - ************TravelInsurance got clicked************
+10:55:27.058 [main] INFO  factory.BaseClass - ************TravelInsurance Page title got verified************
+10:56:06.392 [main] INFO  factory.BaseClass - ************Date got selected************
+11:01:43.436 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+11:03:16.835 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+11:03:22.567 [main] INFO  factory.BaseClass - ************TravelInsurance got clicked************
+11:03:22.826 [main] INFO  factory.BaseClass - ************TravelInsurance Page title got verified************
+11:03:25.263 [main] INFO  factory.BaseClass - ************Date got selected************
+11:03:27.271 [main] INFO  factory.BaseClass - ************Selected two travellers************
+11:03:28.011 [main] INFO  factory.BaseClass - ************Selected No for Medical history************
+11:03:29.470 [main] INFO  factory.BaseClass - ************Mobile number entered sucessfully************
+11:03:41.529 [main] INFO  factory.BaseClass - ************Students Plans got Selected************
+11:03:43.863 [main] INFO  factory.BaseClass - ************Travellers got Selected************
+11:03:52.111 [main] INFO  factory.BaseClass - ************Low to High filter got selected************
+11:03:52.621 [main] INFO  factory.BaseClass - ************Object for carInsurance Page got created************
+11:03:57.204 [main] INFO  factory.BaseClass - ************carlInsurance got clicked************
+11:03:57.626 [main] INFO  factory.BaseClass - ************carlInsurance Page title got verified************
+11:04:19.087 [main] INFO  factory.BaseClass - ************Captured the error message for car************
+11:04:40.498 [main] INFO  factory.BaseClass - ************Entered the car number************
+11:05:11.113 [main] INFO  factory.BaseClass - ************Captured the error message for email************
+11:05:40.418 [main] INFO  factory.BaseClass - ************Object for healthInsurance Page got created************
+11:05:53.600 [main] INFO  factory.BaseClass - ************Captured all the menu items in helath insurance************
+11:05:53.605 [main] INFO  factory.BaseClass - ************Sucessfuly completed all the testCases************
+11:08:49.515 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+11:08:56.292 [main] INFO  factory.BaseClass - ************TravelInsurance got clicked************
+11:08:56.443 [main] INFO  factory.BaseClass - ************TravelInsurance Page title got verified************
+11:09:00.366 [main] INFO  factory.BaseClass - ************Date got selected************
+11:09:03.536 [main] INFO  factory.BaseClass - ************Selected two travellers************
+11:09:04.879 [main] INFO  factory.BaseClass - ************Selected No for Medical history************
+11:09:08.145 [main] INFO  factory.BaseClass - ************Mobile number entered sucessfully************
+11:09:20.689 [main] INFO  factory.BaseClass - ************Students Plans got Selected************
+11:09:23.042 [main] INFO  factory.BaseClass - ************Travellers got Selected************
+11:09:31.798 [main] INFO  factory.BaseClass - ************Low to High filter got selected************
+11:09:32.540 [main] INFO  factory.BaseClass - ************Object for carInsurance Page got created************
+11:11:02.438 [main] INFO  factory.BaseClass - ************Object for travelInsurance Page got created************
+11:11:09.239 [main] INFO  factory.BaseClass - ************TravelInsurance got clicked************
+11:11:09.263 [main] INFO  factory.BaseClass - ************TravelInsurance Page title got verified************
+11:11:12.390 [main] INFO  factory.BaseClass - ************Date got selected************
+11:11:15.999 [main] INFO  factory.BaseClass - ************Selected two travellers************
+11:11:17.229 [main] INFO  factory.BaseClass - ************Selected No for Medical history************
+11:11:19.442 [main] INFO  factory.BaseClass - ************Mobile number entered sucessfully************
+11:11:34.540 [main] INFO  factory.BaseClass - ************Students Plans got Selected************
+11:11:36.421 [main] INFO  factory.BaseClass - ************Travellers got Selected************

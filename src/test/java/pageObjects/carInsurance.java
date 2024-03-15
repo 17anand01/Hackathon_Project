@@ -134,17 +134,17 @@ public class carInsurance extends BasePage{
 			js.executeScript("arguments[0].click();", emailInputBox1);
 			emailInputBox1.sendKeys(data[3]);
 			try {
-			if(editButton.isDisplayed()) {
-			js.executeScript("arguments[0].click();", editButton);
-			act.moveToElement(mobileInputBox1).click().perform();
-			System.out.println(emailErrorMsg1.getText());
-			mobileInputBox1.sendKeys(data[0]);
-			}
-			}catch(Exception e) {
+				act.moveToElement(mobileInputBox1).click().perform();
+				System.out.println(emailErrorMsg1.getText());
+				mobileInputBox1.sendKeys(data[0]);
 			
-			act.moveToElement(mobileInputBox1).click().perform();
-			System.out.println(emailErrorMsg1.getText());
-			mobileInputBox1.sendKeys(data[0]);
+			}catch(Exception e) {
+				if(editButton.isDisplayed()) {
+					js.executeScript("arguments[0].click();", editButton);
+					act.moveToElement(mobileInputBox1).click().perform();
+					System.out.println(emailErrorMsg1.getText());
+					mobileInputBox1.sendKeys(data[0]);
+					}
 			}
 			
 		}catch(Exception e) {

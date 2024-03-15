@@ -16,7 +16,7 @@ public class TC001_TRAVELINSURANCE extends BaseClass{
 		ti.clickTravelInsurance();
 		BaseClass.getLogger().info("************TravelInsurance got clicked************");
 		String act_title=BaseClass.getDriver().getTitle();
-		String exp_title="PolicyBazaar Travel Insurance";
+		String exp_title="Travel Insurance: Buy Travel Insurance Policy Online in India 2024";
 		Assert.assertEquals(act_title, exp_title);
 		BaseClass.getLogger().info("************TravelInsurance Page title got verified************");
 		
